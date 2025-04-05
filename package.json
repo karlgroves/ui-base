@@ -1,0 +1,34 @@
+{
+  "name": "rest-spec",
+  "version": "1.0.0",
+  "description": "An opinionated standard for RESTful projects",
+  "bin": {
+    "ui-base-setup": "./scripts/setup-standards.js",
+    "ui-base-create": "./scripts/create-project.js"
+  },
+  "scripts": {
+    "lint:md": "markdownlint *.md",
+    "lint": "npm run lint:md",
+    "create-project": "node ./scripts/create-project.js",
+    "setup-standards": "node ./scripts/setup-standards.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/karlgroves/ui-base.git"
+  },
+  "keywords": [
+    "React",
+    "standards",
+    "guidelines",
+    "accessibility",
+  ],
+  "author": "Karl Groves <karlgroves@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlgroves/ui-base/issues"
+  },
+  "homepage": "https://github.com/karlgroves/ui-base#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0"
+  }
+}

@@ -1,19 +1,20 @@
-# REST Base
+# UI Base
 
-An opinionated standard for RESTful API projects built with Node.js.
+An opinionated standard for React frontend applications that consume RESTful APIs.
 
 ## Purpose
 
-This repository contains comprehensive standards, guidelines, and conventions for building Node.js-based RESTful APIs.
-It serves as a starting point and reference for teams wanting to establish consistent practices across projects.
+This repository contains comprehensive standards, guidelines, and conventions for building React frontend applications with TypeScript and Material-UI.
+It serves as a starting point and reference for teams wanting to establish consistent practices across frontend projects that consume RESTful APIs.
 
 ## Contents
 
-- **Architecture & Structure**: Guidelines for project structure, module organization, and code organization
-- **Coding Standards**: Detailed style guides for JavaScript/Node.js development
-- **API Design**: Conventions for endpoint design, request/response formats, and error handling
-- **Database**: SQL design patterns and best practices
-- **Security**: Guidelines for implementing secure APIs
+- **Architecture & Structure**: Guidelines for React project structure, component organization, and code patterns
+- **Coding Standards**: Detailed style guides for TypeScript/React development
+- **UI Components**: Conventions for building accessible, reusable components with Material-UI
+- **API Integration**: Patterns for consuming RESTful APIs with Axios and React Query
+- **Accessibility**: Requirements and patterns for meeting WCAG 2.2 AA standards
+- **Security**: Guidelines for implementing secure frontend applications
 
 ## Using These Standards in Your Projects
 
@@ -24,20 +25,20 @@ There are several ways to incorporate these standards into your projects:
 1. Install this package globally:
 
    ```bash
-   npm install -g git+https://github.com/karlgroves/UI-base.git
+   npm install -g git+https://github.com/karlgroves/ui-base.git
    ```
 
-2. Create a new project with all standards pre-applied:
+2. Create a new React project with all standards pre-applied:
 
    ```bash
-   UI-base-create my-new-project
+   ui-base-create my-react-app
    ```
 
-3. Or apply standards to an existing project:
+3. Or apply standards to an existing React project:
 
    ```bash
-   cd existing-project
-   UI-base-setup
+   cd existing-react-project
+   ui-base-setup
    ```
 
 ### Option 2: Clone and Copy
@@ -45,14 +46,14 @@ There are several ways to incorporate these standards into your projects:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/karlgroves/UI-base.git
+   git clone https://github.com/karlgroves/ui-base.git
    ```
 
-2. Copy the relevant documentation files into your project:
+2. Copy the relevant documentation files into your React project:
 
    ```bash
-   mkdir -p my-project/docs/standards
-   cp UI-base/*.md my-project/docs/standards/
+   mkdir -p my-react-project/docs/standards
+   cp ui-base/*.md my-react-project/docs/standards/
    ```
 
 ### Option 3: Use as a Template Repository
@@ -65,24 +66,24 @@ There are several ways to incorporate these standards into your projects:
 If you've cloned this repository, you can also use the scripts directly:
 
 ```bash
-# Create a new project
-npm run create-project my-new-project
+# Create a new React project
+npm run create-project my-react-app
 
-# Setup standards in an existing project
-npm run setup-standards ../path/to/existing-project
+# Setup standards in an existing React project
+npm run setup-standards ../path/to/existing-react-project
 ```
 
 ## Standards Files
 
 The key standards files in this repository are:
 
-- `node_structure_and_naming_conventions.md` - Node.js coding standards
-- `sql-standards-and-patterns.md` - Database design and SQL standards
-- `technologies.md` - Approved technologies and dependencies
-- `operations-and-responses.md` - API response formats
-- `request.md` - API request patterns
+- `node_structure_and_naming_conventions.md` - TypeScript/React coding standards
+- `technologies.md` - Approved frontend technologies and dependencies
+- `operations-and-responses.md` - API interaction patterns
+- `request.md` - API request handling
 - `validation.md` - Input validation requirements
 - `global-rules.md` - Project-wide standards
+- `visual-design-requirements.md` - UI and design standards
 - `CLAUDE.md` - Guide for AI assistants working with the codebase
 
 ## Contributing

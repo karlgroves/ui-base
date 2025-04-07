@@ -4,8 +4,10 @@ An opinionated standard for React frontend applications that consume RESTful API
 
 ## Purpose
 
-This repository contains comprehensive standards, guidelines, and conventions for building React frontend applications with TypeScript and Material-UI.
-It serves as a starting point and reference for teams wanting to establish consistent practices across frontend projects that consume RESTful APIs.
+This repository contains comprehensive standards, guidelines, and conventions for building React frontend applications
+with TypeScript and Material-UI.
+It serves as a starting point and reference for teams wanting to establish consistent practices across frontend projects
+that consume RESTful APIs.
 
 ## Contents
 
